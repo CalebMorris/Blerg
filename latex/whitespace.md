@@ -1,4 +1,4 @@
-### Whitespace
+# Whitespace
 
 As with anything that requires knowledge of how spacing works you can make use of LaTex's diverse
 [size system](./size).
@@ -18,6 +18,9 @@ Example of Usages of Each Kind:
 <center>![test](./sample/newlines.svg)</center>
 
 ## Page Breaks
+
+- `\clearpage` - Flushing many floating elements and creates a new page. May have undesired affects.  
+- `\newpage` - Fills remaining page with space and continues to next page.  
 
 ## Horizontal Space
 
