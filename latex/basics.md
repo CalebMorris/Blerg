@@ -26,7 +26,7 @@ Whitespace is by default only a method of separating section.
 
 `a b` will render the same as <code>a&nbsp;&nbsp;&nbsp;&nbsp;b</code>
 
-Instead [rendering whitespace](./whitespace) is handled by various macros or built-in sytax.
+Instead [rendering whitespace](./whitespace.md) is handled by various macros or built-in sytax.
 
 ### Macros
 
