@@ -18,6 +18,16 @@ ex: `\documentclass[11pt,twoside]{article}`
 
 Wrapped in `\begin{document}` and `end{document}`
 
+### Syntax Behavior
+
+## Whitespace
+
+Whitespace is by default only a method of separating section.
+
+`a b` will render the same as <code>a&nbsp;&nbsp;&nbsp;&nbsp;b</code>
+
+Instead [rendering whitespace](./whitespace) is handled by various macros or built-in sytax.
+
 ### Macros
 
 Lexically inserted sections of LaTex code that can be reused throughout your document.
@@ -32,7 +42,7 @@ Usage:
 ```
 \newcommand{\test}{bar}  
 \begin{document}
-\test %Will insert bar here
+  \test %Will insert bar here
 \end{document}
 ```
 
